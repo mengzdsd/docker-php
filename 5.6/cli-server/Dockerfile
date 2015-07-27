@@ -6,8 +6,7 @@ MAINTAINER Mengz You <you.mengz@yahoo.com>
 ENV PHP_VERSION 5.6.9
 
 # Add server_php repository
-RUN zypper -q ar -f -r http://download.opensuse.org/repositories/server:/php/openSUSE_13.2/server:php.repo \
-  && zypper -q ar -f -r http://download.opensuse.org/repositories/Apache/openSUSE_13.2/Apache.repo
+RUN zypper -q ar -f -r http://download.opensuse.org/repositories/server:/php/openSUSE_13.2/server:php.repo
 
 # Refresh repositories and install packages
 RUN zypper -qn --gpg-auto-import-keys ref \
