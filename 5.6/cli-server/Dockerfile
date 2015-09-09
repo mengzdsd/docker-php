@@ -1,6 +1,6 @@
 # This is a Dockerfile for build a php -S application development image.
 FROM mengzyou/docker-opensuse-base:latest
-MAINTAINER Mengz You <you.mengz@yahoo.com>
+MAINTAINER Mengz You <mengz.you@outlook.com>
 
 # ENV
 ENV PHP_VERSION 5.6.9
@@ -19,6 +19,9 @@ RUN mkdir -p /srv/app
 # Set Volume and workdir
 VOLUME /srv/app
 WORKDIR /srv/app
+
+# Add a test file
+ADD files/index.php /srv/app/index.php
 
 # Expose ports
 EXPOSE 8001
