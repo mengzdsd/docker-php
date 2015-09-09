@@ -3,7 +3,7 @@ Build docker images for php application.
 
 ##Tags and `Dockerfile` links
 - [`5.6-cli-server` (5.6-cli-server/dockerfile)](https://github.com/mengzyou/docker-php/blob/master/5.6/cli-server/Dockerfile)  
-- [`4.6-apache-server` (5.6-apache-server/dockerfile)](https://github.com/mengzyou/docker-php/blob/master/5.6/apache-server/Dockerfile)  
+- [`5.6-apache-server` (5.6-apache-server/dockerfile)](https://github.com/mengzyou/docker-php/blob/master/5.6/apache-server/Dockerfile)  
 
 ##How to use
 ###5.6-cli-server
